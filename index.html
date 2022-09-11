@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Luis Flores">
+    <meta name="description" content="Track your stats and choose your opponents with SSBU Tracker">
+    <title>SSBU Tracker</title>
+    <link rel="icon" type="image/png"
+        href="https://cdn4.iconfinder.com/data/icons/office-tools-24/88/Game_handle-512.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body-content">
+    <!-- Page header -->
+    <nav>
+        <a id="logo-controller" href="splash.html"><img src="img/logo-controller.png" alt="blue controller"></a>
+        <ul>
+            <li><a href="index.html">Tracker</a></li>
+            <li><a class="about" href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <header class="jumbotron jumbotron-fluid bg-danger text-white text-center">
+        <div class="container">
+            <!--<nav>
+          navigation links in here
+      </nav> -->
+            <h1>Super Smash Bros Ultimate Tracker!</h1>
+            <p class="lead">See your game stats for Super Smash Bros Ultimate. Choose your character and start tracking
+                your wins and loses.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main page content -->
+    <main>
+        <!-- Character Selection -->
+        <div id="select" class="container-fluid">
+            <div class="card border-light text-center bg-transparent">
+                <div class="card-header">
+                    <div class="d-inline-flex">
+                        <h2>Select Your Character</h2>
+                        <button><i class="fas fa-info-circle" aria-label="About botton"></i></button>
+                    </div>
+                    <p class="d-none">Which character are you using?</p>
+                </div>
+                <div class="card-body">
+                    <img class="user"
+                        src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-game-controller-b-512.png"
+                        alt="controller icon">
+                    <div class="row">
+                        <div class="col-sm text-center">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select a
+                                    character</button>
+                                <div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- View Stats -->
+        <div id="stat" class="container-fluid d-none">
+            <div class="card border-light text-center bg-transparent">
+                <div class="card-header">
+                    <div class="d-inline-flex">
+                        <h2>View Stats</h2>
+                        <button><i class="fas fa-info-circle" aria-label="About button"></i></button>
+                    </div>
+                    <p class="d-none">View stats on the games you have played. Click overall stats to view all your wins
+                        and loses. Click Nemesis Stats to view stats about who you lost most againts.</p>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm text-center text-sm-right mb-sm-0">
+                            <button class="btn btn-info" type="button" name="button"
+                                aria-label="Overall stats botton">Overall Stats</button>
+                        </div>
+                        <div class="col-sm text-center text-sm-left mb-0">
+                            <button class="btn btn-info" type="button" name="button" aria-label="Overall botton">Nemesis
+                                Stats</button>
+                        </div>
+                    </div>
+                    <div class="bar-chart">
+                        <canvas id="chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Record Match -->
+        <div id="match" class="container-fluid d-none">
+            <div class="card border-light text-center bg-transparent mb-3">
+                <div class="card-header">
+                    <div class="d-inline-flex">
+                        <h2>Opponents</h2>
+                        <button><i class="fas fa-info-circle" aria-label="About botton"></i></button>
+                    </div>
+                    <p class="d-none">Record the outcome of the match for the character you just faced. Clicking a win
+                        or loss will add the stat to your record.</p>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="input-group">
+                            <input class="form-control" type="search" placeholder="Search your opponent"
+                                aria-label="Search">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary" aria-label="Search botton">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn btn-outline-secondary mt-1" aria-label="Show all botton">Show all
+                        opponents</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="opponents" class="row">
+            </div>
+            <i class="d-none fa fa-sun fa-spin fa-3x" aria-hidden="true"></i>
+        </div>
+    </main>
+
+    <!-- Page footer -->
+    <footer>
+        <cite><a
+                href="https://cdn1.iconfinder.com/data/icons/healthy-life-filled-outline-1/64/gym-fight-punch-boxing_gloves-sports_and_competition-boxing-athlete-olympic-training-gloves-sport-512.png">Gloves</a></cite>
+        <cite><a href="https://www.iconfinder.com/icons/211668/b_controller_game_icon">Controller</a></cite>
+        <cite><a
+                href="https://www.iconfinder.com/icons/5968318/ball_game_handle_media_play_sport_sports_icon">Fabicon</a></cite>
+        <p>&copy; 2020 - Luis</p>
+    </footer>
+
+    <!-- include JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

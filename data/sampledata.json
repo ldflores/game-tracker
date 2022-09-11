@@ -1,0 +1,626 @@
+[
+    {
+      "NAME": "MARIO",
+      "WIN": 25,
+      "LOSS": 25,
+      "NEMESIS": "ZERO SUIT SAMUS",
+      "NLOSS": 3,
+      "NWIN": 5
+    },
+    {
+      "NAME": "DONKEY KONG",
+      "WIN": 14,
+      "LOSS": 16,
+      "NEMESIS": "ZELDA",
+      "NLOSS": 18,
+      "NWIN": 20
+    },
+    {
+      "NAME": "LINK",
+      "WIN": 6,
+      "LOSS": 8,
+      "NEMESIS": "YOUNG LINK",
+      "NLOSS": 12,
+      "NWIN": 22
+    },
+    {
+      "NAME": "SAMUS",
+      "WIN": 5,
+      "LOSS": 24,
+      "NEMESIS": "YOSHI",
+      "NLOSS": 22,
+      "NWIN": 16
+    },
+    {
+      "NAME": "DARK SAMUS",
+      "WIN": 26,
+      "LOSS": 23,
+      "NEMESIS": "WOLF",
+      "NLOSS": 3,
+      "NWIN": 10
+    },
+    {
+      "NAME": "YOSHI",
+      "WIN": 28,
+      "LOSS": 3,
+      "NEMESIS": "WII FIT TRAINER",
+      "NLOSS": 23,
+      "NWIN": 11
+    },
+    {
+      "NAME": "KIRBY",
+      "WIN": 20,
+      "LOSS": 4,
+      "NEMESIS": "WARIO",
+      "NLOSS": 2,
+      "NWIN": 10
+    },
+    {
+      "NAME": "FOX",
+      "WIN": 18,
+      "LOSS": 23,
+      "NEMESIS": "VILLAGER",
+      "NLOSS": 21,
+      "NWIN": 1
+    },
+    {
+      "NAME": "PIKACHU",
+      "WIN": 12,
+      "LOSS": 17,
+      "NEMESIS": "TOON LINK",
+      "NLOSS": 2,
+      "NWIN": 10
+    },
+    {
+      "NAME": "LUIGI",
+      "WIN": 27,
+      "LOSS": 9,
+      "NEMESIS": "TERRY",
+      "NLOSS": 22,
+      "NWIN": 23
+    },
+    {
+      "NAME": "NESS",
+      "WIN": 16,
+      "LOSS": 2,
+      "NEMESIS": "SONIC",
+      "NLOSS": 24,
+      "NWIN": 16
+    },
+    {
+      "NAME": "CAPTAIN FALCON",
+      "WIN": 20,
+      "LOSS": 19,
+      "NEMESIS": "SNAKE",
+      "NLOSS": 8,
+      "NWIN": 24
+    },
+    {
+      "NAME": "JIGGLYPUFF",
+      "WIN": 3,
+      "LOSS": 5,
+      "NEMESIS": "SIMON",
+      "NLOSS": 1,
+      "NWIN": 21
+    },
+    {
+      "NAME": "PEACH",
+      "WIN": 10,
+      "LOSS": 25,
+      "NEMESIS": "SHULK",
+      "NLOSS": 11,
+      "NWIN": 15
+    },
+    {
+      "NAME": "DAISY",
+      "WIN": 9,
+      "LOSS": 13,
+      "NEMESIS": "SHEIK",
+      "NLOSS": 17,
+      "NWIN": 13
+    },
+    {
+      "NAME": "BOWSER",
+      "WIN": 18,
+      "LOSS": 22,
+      "NEMESIS": "SAMUS",
+      "NLOSS": 4,
+      "NWIN": 6
+    },
+    {
+      "NAME": "ICE CLIMBERS",
+      "WIN": 28,
+      "LOSS": 26,
+      "NEMESIS": "RYU",
+      "NLOSS": 21,
+      "NWIN": 3
+    },
+    {
+      "NAME": "SHEIK",
+      "WIN": 7,
+      "LOSS": 10,
+      "NEMESIS": "ROY",
+      "NLOSS": 6,
+      "NWIN": 0
+    },
+    {
+      "NAME": "ZELDA",
+      "WIN": 20,
+      "LOSS": 21,
+      "NEMESIS": "ROSALINA & LUMA",
+      "NLOSS": 9,
+      "NWIN": 5
+    },
+    {
+      "NAME": "DR. MARIO",
+      "WIN": 25,
+      "LOSS": 16,
+      "NEMESIS": "ROBIN",
+      "NLOSS": 0,
+      "NWIN": 11
+    },
+    {
+      "NAME": "PICHU",
+      "WIN": 23,
+      "LOSS": 22,
+      "NEMESIS": "RIDLEY",
+      "NLOSS": 15,
+      "NWIN": 9
+    },
+    {
+      "NAME": "FALCO",
+      "WIN": 28,
+      "LOSS": 16,
+      "NEMESIS": "RICHTER",
+      "NLOSS": 25,
+      "NWIN": 11
+    },
+    {
+      "NAME": "MARTH",
+      "WIN": 2,
+      "LOSS": 28,
+      "NEMESIS": "R.O.B.",
+      "NLOSS": 24,
+      "NWIN": 1
+    },
+    {
+      "NAME": "LUCINA",
+      "WIN": 11,
+      "LOSS": 6,
+      "NEMESIS": "POKEMON TRAINER",
+      "NLOSS": 5,
+      "NWIN": 14
+    },
+    {
+      "NAME": "YOUNG LINK",
+      "WIN": 23,
+      "LOSS": 25,
+      "NEMESIS": "PIT",
+      "NLOSS": 5,
+      "NWIN": 21
+    },
+    {
+      "NAME": "GANONDORF",
+      "WIN": 8,
+      "LOSS": 14,
+      "NEMESIS": "PIRANHA PLANT",
+      "NLOSS": 23,
+      "NWIN": 9
+    },
+    {
+      "NAME": "MEWTWO",
+      "WIN": 14,
+      "LOSS": 8,
+      "NEMESIS": "PIKACHU",
+      "NLOSS": 20,
+      "NWIN": 11
+    },
+    {
+      "NAME": "ROY",
+      "WIN": 9,
+      "LOSS": 9,
+      "NEMESIS": "PICHU",
+      "NLOSS": 18,
+      "NWIN": 24
+    },
+    {
+      "NAME": "CHROM",
+      "WIN": 16,
+      "LOSS": 23,
+      "NEMESIS": "PEACH",
+      "NLOSS": 5,
+      "NWIN": 20
+    },
+    {
+      "NAME": "MR. GAME & WATCH",
+      "WIN": 13,
+      "LOSS": 12,
+      "NEMESIS": "PALUTENA",
+      "NLOSS": 17,
+      "NWIN": 9
+    },
+    {
+      "NAME": "META KNIGHT",
+      "WIN": 24,
+      "LOSS": 22,
+      "NEMESIS": "PAC-MAN",
+      "NLOSS": 2,
+      "NWIN": 10
+    },
+    {
+      "NAME": "PIT",
+      "WIN": 2,
+      "LOSS": 8,
+      "NEMESIS": "OLIMAR",
+      "NLOSS": 7,
+      "NWIN": 6
+    },
+    {
+      "NAME": "DARK PIT",
+      "WIN": 27,
+      "LOSS": 17,
+      "NEMESIS": "NESS",
+      "NLOSS": 24,
+      "NWIN": 12
+    },
+    {
+      "NAME": "ZERO SUIT SAMUS",
+      "WIN": 8,
+      "LOSS": 21,
+      "NEMESIS": "MR. GAME & WATCH",
+      "NLOSS": 19,
+      "NWIN": 16
+    },
+    {
+      "NAME": "WARIO",
+      "WIN": 1,
+      "LOSS": 24,
+      "NEMESIS": "MII FIGHTER",
+      "NLOSS": 17,
+      "NWIN": 10
+    },
+    {
+      "NAME": "SNAKE",
+      "WIN": 17,
+      "LOSS": 26,
+      "NEMESIS": "MEWTWO",
+      "NLOSS": 13,
+      "NWIN": 6
+    },
+    {
+      "NAME": "IKE",
+      "WIN": 16,
+      "LOSS": 27,
+      "NEMESIS": "META KNIGHT",
+      "NLOSS": 9,
+      "NWIN": 3
+    },
+    {
+      "NAME": "POKEMON TRAINER",
+      "WIN": 1,
+      "LOSS": 10,
+      "NEMESIS": "MEGA MAN",
+      "NLOSS": 10,
+      "NWIN": 10
+    },
+    {
+      "NAME": "DIDDY KONG",
+      "WIN": 13,
+      "LOSS": 15,
+      "NEMESIS": "MARTH",
+      "NLOSS": 9,
+      "NWIN": 12
+    },
+    {
+      "NAME": "LUCAS",
+      "WIN": 9,
+      "LOSS": 25,
+      "NEMESIS": "MARIO",
+      "NLOSS": 10,
+      "NWIN": 6
+    },
+    {
+      "NAME": "SONIC",
+      "WIN": 2,
+      "LOSS": 10,
+      "NEMESIS": "LUIGI",
+      "NLOSS": 4,
+      "NWIN": 21
+    },
+    {
+      "NAME": "KING DEDEDE",
+      "WIN": 20,
+      "LOSS": 12,
+      "NEMESIS": "LUCINA",
+      "NLOSS": 0,
+      "NWIN": 7
+    },
+    {
+      "NAME": "OLIMAR",
+      "WIN": 23,
+      "LOSS": 15,
+      "NEMESIS": "LUCAS",
+      "NLOSS": 5,
+      "NWIN": 22
+    },
+    {
+      "NAME": "LUCARIO",
+      "WIN": 22,
+      "LOSS": 15,
+      "NEMESIS": "LUCARIO",
+      "NLOSS": 1,
+      "NWIN": 4
+    },
+    {
+      "NAME": "R.O.B.",
+      "WIN": 8,
+      "LOSS": 25,
+      "NEMESIS": "LITTLE MAC",
+      "NLOSS": 9,
+      "NWIN": 12
+    },
+    {
+      "NAME": "TOON LINK",
+      "WIN": 13,
+      "LOSS": 20,
+      "NEMESIS": "LINK",
+      "NLOSS": 4,
+      "NWIN": 8
+    },
+    {
+      "NAME": "WOLF",
+      "WIN": 4,
+      "LOSS": 28,
+      "NEMESIS": "KIRBY",
+      "NLOSS": 10,
+      "NWIN": 1
+    },
+    {
+      "NAME": "VILLAGER",
+      "WIN": 7,
+      "LOSS": 13,
+      "NEMESIS": "KING K. ROOL",
+      "NLOSS": 5,
+      "NWIN": 14
+    },
+    {
+      "NAME": "MEGA MAN",
+      "WIN": 23,
+      "LOSS": 1,
+      "NEMESIS": "KING DEDEDE",
+      "NLOSS": 16,
+      "NWIN": 25
+    },
+    {
+      "NAME": "WII FIT TRAINER",
+      "WIN": 19,
+      "LOSS": 5,
+      "NEMESIS": "KEN",
+      "NLOSS": 10,
+      "NWIN": 14
+    },
+    {
+      "NAME": "ROSALINA & LUMA",
+      "WIN": 11,
+      "LOSS": 12,
+      "NEMESIS": "JOKER",
+      "NLOSS": 18,
+      "NWIN": 2
+    },
+    {
+      "NAME": "LITTLE MAC",
+      "WIN": 6,
+      "LOSS": 3,
+      "NEMESIS": "JIGGLYPUFF",
+      "NLOSS": 19,
+      "NWIN": 9
+    },
+    {
+      "NAME": "GRENINJA",
+      "WIN": 2,
+      "LOSS": 14,
+      "NEMESIS": "ISABELLE",
+      "NLOSS": 19,
+      "NWIN": 24
+    },
+    {
+      "NAME": "MII FIGHTER",
+      "WIN": 15,
+      "LOSS": 13,
+      "NEMESIS": "INKLING",
+      "NLOSS": 25,
+      "NWIN": 6
+    },
+    {
+      "NAME": "PALUTENA",
+      "WIN": 9,
+      "LOSS": 16,
+      "NEMESIS": "INCINEROAR",
+      "NLOSS": 12,
+      "NWIN": 21
+    },
+    {
+      "NAME": "PAC-MAN",
+      "WIN": 15,
+      "LOSS": 18,
+      "NEMESIS": "IKE",
+      "NLOSS": 7,
+      "NWIN": 15
+    },
+    {
+      "NAME": "ROBIN",
+      "WIN": 23,
+      "LOSS": 18,
+      "NEMESIS": "ICE CLIMBERS",
+      "NLOSS": 19,
+      "NWIN": 9
+    },
+    {
+      "NAME": "SHULK",
+      "WIN": 2,
+      "LOSS": 23,
+      "NEMESIS": "HERO",
+      "NLOSS": 11,
+      "NWIN": 6
+    },
+    {
+      "NAME": "BOWSER JR.",
+      "WIN": 25,
+      "LOSS": 15,
+      "NEMESIS": "GRENINJA",
+      "NLOSS": 11,
+      "NWIN": 0
+    },
+    {
+      "NAME": "DUCK HUNT",
+      "WIN": 6,
+      "LOSS": 8,
+      "NEMESIS": "GANONDORF",
+      "NLOSS": 13,
+      "NWIN": 22
+    },
+    {
+      "NAME": "RYU",
+      "WIN": 23,
+      "LOSS": 9,
+      "NEMESIS": "FOX",
+      "NLOSS": 24,
+      "NWIN": 6
+    },
+    {
+      "NAME": "KEN",
+      "WIN": 12,
+      "LOSS": 8,
+      "NEMESIS": "FALCO",
+      "NLOSS": 25,
+      "NWIN": 24
+    },
+    {
+      "NAME": "CLOUD",
+      "WIN": 8,
+      "LOSS": 18,
+      "NEMESIS": "DUCK HUNT",
+      "NLOSS": 16,
+      "NWIN": 11
+    },
+    {
+      "NAME": "CORRIN",
+      "WIN": 28,
+      "LOSS": 1,
+      "NEMESIS": "DR. MARIO",
+      "NLOSS": 13,
+      "NWIN": 22
+    },
+    {
+      "NAME": "BAYONETTA",
+      "WIN": 26,
+      "LOSS": 9,
+      "NEMESIS": "DONKEY KONG",
+      "NLOSS": 12,
+      "NWIN": 11
+    },
+    {
+      "NAME": "INKLING",
+      "WIN": 22,
+      "LOSS": 27,
+      "NEMESIS": "DIDDY KONG",
+      "NLOSS": 10,
+      "NWIN": 14
+    },
+    {
+      "NAME": "RIDLEY",
+      "WIN": 28,
+      "LOSS": 27,
+      "NEMESIS": "DARK SAMUS",
+      "NLOSS": 6,
+      "NWIN": 14
+    },
+    {
+      "NAME": "SIMON",
+      "WIN": 23,
+      "LOSS": 15,
+      "NEMESIS": "DARK PIT",
+      "NLOSS": 8,
+      "NWIN": 11
+    },
+    {
+      "NAME": "RICHTER",
+      "WIN": 28,
+      "LOSS": 5,
+      "NEMESIS": "DAISY",
+      "NLOSS": 14,
+      "NWIN": 7
+    },
+    {
+      "NAME": "KING K. ROOL",
+      "WIN": 3,
+      "LOSS": 12,
+      "NEMESIS": "CORRIN",
+      "NLOSS": 25,
+      "NWIN": 3
+    },
+    {
+      "NAME": "ISABELLE",
+      "WIN": 14,
+      "LOSS": 25,
+      "NEMESIS": "CLOUD",
+      "NLOSS": 15,
+      "NWIN": 1
+    },
+    {
+      "NAME": "INCINEROAR",
+      "WIN": 10,
+      "LOSS": 21,
+      "NEMESIS": "CHROM",
+      "NLOSS": 11,
+      "NWIN": 12
+    },
+    {
+      "NAME": "PIRANHA PLANT",
+      "WIN": 14,
+      "LOSS": 15,
+      "NEMESIS": "CAPTAIN FALCON",
+      "NLOSS": 25,
+      "NWIN": 28
+    },
+    {
+      "NAME": "JOKER",
+      "WIN": 1,
+      "LOSS": 7,
+      "NEMESIS": "BYLETH",
+      "NLOSS": 14,
+      "NWIN": 7
+    },
+    {
+      "NAME": "HERO",
+      "WIN": 23,
+      "LOSS": 6,
+      "NEMESIS": "BOWSER JR.",
+      "NLOSS": 22,
+      "NWIN": 25
+    },
+    {
+      "NAME": "BANJO & KAZOOIE",
+      "WIN": 20,
+      "LOSS": 27,
+      "NEMESIS": "BOWSER",
+      "NLOSS": 25,
+      "NWIN": 23
+    },
+    {
+      "NAME": "TERRY",
+      "WIN": 21,
+      "LOSS": 24,
+      "NEMESIS": "BAYONETTA",
+      "NLOSS": 10,
+      "NWIN": 9
+    },
+    {
+      "NAME": "BYLETH",
+      "WIN": 3,
+      "LOSS": 8,
+      "NEMESIS": "BANJO & KAZOOIE",
+      "NLOSS": 24,
+      "NWIN": 3
+    }
+  ]

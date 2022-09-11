@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 600;
+}
+
+body {
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 400;
+}
+
+html {
+    height: 100%;
+    width: auto;
+}
+
+footer {
+    text-align: right;
+    font-size: 12px;
+}
+
+section p {
+    padding-top: 1rem;
+}
+
+.bar-chart p {
+    font-family: "Permanent Marker", cursive;
+    font-size: 24px;
+}
+.bar-chart {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* Splash Page Style */
+
+#body-splash footer {
+    position: absolute;
+    bottom: .5px;
+}
+
+#body-splash {
+    background-image: url("../img/ns-large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body-splash main {
+    text-align: center;
+}
+
+.splash-icons p {
+    font-size: small;
+}
+
+#body-splash h1, #body-splash p {
+    text-align: center;
+    color: white;
+}
+
+#body-splash h1 {
+    padding-top: .1rem;
+    font-size: 42px
+}
+
+.splash-icons {
+    padding-top: .1em;
+}
+
+section img {
+    width: 100%;
+}
+
+.splash-icons img {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}
+
+section div {
+    padding: 5rem;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+.splash-icons div {
+    text-align: center;
+    font-size: 14px;
+}
+
+.to-tracker {
+    font-size: 12px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+    padding: .55rem;
+    color: white;
+}
+
+.go-tracker {
+    text-align: center;
+    padding-top: .1em;
+}
+
+/* Navigation Item Styles */
+
+#body-content header {
+    background: url("../img/ns-small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background: black;
+    display: flex;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+nav ul {
+    text-align: right;
+}
+
+#logo-controller {
+    flex: 1;
+}
+
+#logo-controller img {
+    width: 40px;
+}
+
+nav li {
+    display: inline;
+    padding-left: 1rem;
+}
+
+nav a {
+    color: #F9F9F9;
+}
+
+section h3 {
+    border-bottom: red .5rem solid;
+    padding-bottom: 1rem;
+}
+
+/* About Page Style */
+
+#about-body {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#about-body h3, #about-body p {
+    color: black;
+}
+
+#about-controller {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#about-body main {
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+}
+
+#about-body h2 {
+    padding-top: 3rem;
+}
+
+#about-body section, #about-body h2, nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#about-body section {
+    padding-top: 1rem;
+}
+
+section div a {
+    color: red;
+    font-size: 16px;
+}
+
+/* Index Styles */
+
+.container-fluid .col-sm {
+    margin-bottom: 5%;
+}
+
+.ptb3 {
+    width: 128px;
+}
+
+.user {
+    width: 128px;
+}
+
+.scrollable-menu {
+    max-height: 100px;
+    overflow-x: hidden;
+}
+
+.d-inline-flex button {
+    color: grey;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+/* Media Queries */
+
+@media (min-width: 410) {
+    /* Navigation Item Styles */
+    #body-content header {
+        background: url("../img/ns-small.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 576px) {
+    #body-splash h1 {
+        padding-top: 5rem;
+        font-size: 42px
+    }
+    .welcome-sign {
+        font-size: 22px;
+    }
+    .splash-icons {
+        display: flex;
+    }
+    .splash-icons img {
+        width: 60px;
+        height: 60px;
+        align-items: center;
+    }
+    .splash-icons p {
+        font-size: large;
+    }
+    .splash-icons div {
+        flex: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    #about-body section {
+        display: flex;
+    }
+    section img {
+        width: 50%;
+    }
+    .go-tracker {
+        padding-top: 5em;
+    }
+    #body-splash {
+        background-image: url("../img/ns-medium.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bar-chart {
+        width: 700px;
+        height: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #body-splash {
+        background-image: url("../img/ns-large.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section h3 {
+        border-bottom: red .5rem solid;
+        padding-bottom: 1rem;
+        transition: border-bottom 3s;
+    }
+    section h3:hover {
+        border-bottom: red .1rem solid;
+    }
+    .d-inline-flex button:hover {
+        color: #0275d8;
+    }
+    .to-tracker {
+        transition: background-color 2s;
+    }
+    .to-tracker:hover {
+        background-color: rgb(16, 103, 235);
+        color: white;
+    }
+    nav a:hover {
+        color: lightseagreen;
+        text-decoration: none;
+    }
+    section div a:hover {
+        color: lightseagreen;
+        text-decoration: none;
+    }
+}
